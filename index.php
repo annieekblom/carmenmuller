@@ -6,7 +6,11 @@ get_header();
 <?php
 
  echo "Hello";
+<<<<<<< HEAD
  echo "here is a change";
+=======
+ echo "Here is a change";
+>>>>>>> a58904fb54de97d327019795dd99213ff72d407a
 
 if ( have_posts() ) :
 	while ( have_posts() ) : the_post(); ?>

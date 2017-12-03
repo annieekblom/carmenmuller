@@ -1,0 +1,22 @@
+[03-Dec-2017 14:07:08 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_CLI\SynopsisValidator' not found in phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php:253
+Stack trace:
+#0 phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php(375): WP_CLI\Dispatcher\Subcommand->validate_args(Array, Array, Array)
+#1 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(316): WP_CLI\Dispatcher\Subcommand->invoke(Array, Array, Array)
+#2 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(323): WP_CLI\Runner->run_command(Array, Array)
+#3 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(947): WP_CLI\Runner->_run_command()
+#4 phar:///usr/local/bin/wp/php/wp-cli.php(21): WP_CLI\Runner->start()
+#5 phar:///usr/local/bin/wp/php/boot-phar.php(5): include('phar:///usr/loc...')
+#6 /usr/local/bin/wp(4): include('phar:///usr/loc...')
+#7 {main}
+  thrown in phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php on line 253
+[03-Dec-2017 14:07:08 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_CLI\SynopsisValidator' not found in phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php:253
+Stack trace:
+#0 phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php(375): WP_CLI\Dispatcher\Subcommand->validate_args(Array, Array, Array)
+#1 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(316): WP_CLI\Dispatcher\Subcommand->invoke(Array, Array, Array)
+#2 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(323): WP_CLI\Runner->run_command(Array, Array)
+#3 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(947): WP_CLI\Runner->_run_command()
+#4 phar:///usr/local/bin/wp/php/wp-cli.php(21): WP_CLI\Runner->start()
+#5 phar:///usr/local/bin/wp/php/boot-phar.php(5): include('phar:///usr/loc...')
+#6 /usr/local/bin/wp(4): include('phar:///usr/loc...')
+#7 {main}
+  thrown in phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php on line 253
