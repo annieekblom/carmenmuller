@@ -4,3 +4,11 @@ Author: [Your Name]
 Description: A theme to present creative work
 Text Domain: Annie-Portfolio
 */
+
+header {
+	margin: 0 auto;
+}
+
+#signature {
+	font-family: 'Allura', cursive;
+}
