@@ -10,5 +10,5 @@
 </head>
 
 <header>
-	<h1>This is the header</h1>
+	<h1>This is the header, and its great.</h1>
 </header>
